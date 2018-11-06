@@ -1,0 +1,171 @@
+html, body {
+    height: 100%;
+    margin: 20px
+}
+
+body {
+        background: url('assets/fabric_plaid.png');
+        background-repeat: repeat;
+        background-size: cover;
+        height: 100vh;
+        margin: 20px;
+    }
+/* MAIN NAVIGATION ITEMS */
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    margin: 20px;
+}
+nav {
+    background:url('assets/fabric_plaid.png');
+    display: flex;
+    padding: 15px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav a {
+    text-decoration: none;
+    display: flex;
+    padding: 10px 20px 10px 30px;
+    color:rgb(124, 124, 124);
+}
+
+@media screen and (min-width: 150px) {
+   nav ul {
+        display: flex;      
+   }
+}
+
+ol {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: flex-end;
+}
+ol img {
+    width: 25px;
+    margin: 5px;
+    position: relative;
+    bottom: 100px;
+}
+
+/* CENTER IMAGE ITEMS */
+
+.MainContent {
+    width: 100%;
+    margin: 0 40px 0 40px;
+}
+
+.MainImage {
+    width: 98%;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+
+}
+.Image {
+    width: 100%;
+    padding: 0 80px 10px 0;
+}
+.Image img {
+    width: 850px;
+    height: 480px;
+    border: solid 10px white;
+
+}
+.MainImageText {
+   width: 100%;
+   margin: 0 auto;
+   justify-content: left;
+   padding: 20px;
+}
+.MainImageText p {
+    background: rgba(0, 0, 0, 0.3);
+    text-align: right;
+    color: white;
+    padding: 10px;
+    width: 830px;
+    position: relative;
+    bottom: 165px;
+    left: 10px;
+}
+.Arrows{
+    display: flex;
+    justify-content: left;
+}
+.Arrows img {
+    width: 50px;
+    height: 50px;
+    justify-content: space-between;
+    padding: 0 399px 0 399px;
+    position: relative;
+    bottom: 350px;
+    right: 393px;
+
+}
+
+.StudentBio {
+    width: 100%;
+    display: flex;
+
+}
+
+.MyImage {
+    flex-wrap: wrap;
+
+}
+
+.MyImage img{
+    width: 200px; 
+    height: 200px;
+    border: solid 10px white;
+}
+.Text {
+    border: solid 10px white;
+    text-align: right;
+    height: 200px;
+    background: white;
+}
+.Text2 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: relative;
+    left: 970px;
+    bottom: 400px;
+    border: solid 10px white;
+    background: white;
+    padding: 10px 30px 10px 20px;
+}
+.ThreeImages {
+
+ position: relative;
+ bottom: 650px;
+ right: 10px;
+ margin: 20px;
+    
+}
+
+.ThreeImages img {
+    width: 268px;
+    height: 220px;
+    margin: 10px;
+    border: solid 3px white;
+}
+
+.SubContent {
+    position: relative;
+    bottom: 500px;
+    left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.EightImages img {
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+}
